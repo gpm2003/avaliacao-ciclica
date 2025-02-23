@@ -7,8 +7,7 @@ new Vue({
         selectedAvaliador: '',
         currentNota: '',
         loading: false,
-        SCRIPT_URL: 'YOUR_GOOGLE_SCRIPT_URL_HERE' // Substituir pela URL do seu script
-    },
+        SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbwoDtigcyh7pYT1XUzCuFLm3hNVS1Rek3SJ1-HnjluRiD73seUOguD3hJgzIeoT0yoeyQ/exec'
     computed: {
         proximoAvaliado() {
             if (!this.selectedAvaliador) return null;
